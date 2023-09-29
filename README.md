@@ -7,7 +7,7 @@ Author: Group 54
 - Rithwik Seth
 - Puneet Singh Bagga
 
-- 
+### distribution (temporary)
 - Introduction/Background - Dillon
 - Problem Definition
 - Methods
