@@ -14,9 +14,9 @@ Author: Group 54
 - Potential Results - Rithwik/Puneet
 - Discussion - Rithwik/Puneet
 - References - Wonho
-- Contribution
-- Timeline
-- Checkpoints
+- Contribution - Madeline
+- Timeline - Madeline
+- Checkpoints - Madeline
 
 ## Topic
 
