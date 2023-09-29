@@ -4,13 +4,13 @@ Topic:
 
 Introduction/Background:
 
-Problem definition: 
+Problem Definition: 
 
 Methods:
 
-Potential results and Discussion:
+Potential Results and Discussion:
 
-Reference:
+References:
 
 Contribution:
 
