@@ -1,6 +1,6 @@
 # Project Proposal
 
-Group 54
+Author: Group 54
 - Wonho Lim
 - Dillon Rowe Greer
 - Madeline Hartlage
