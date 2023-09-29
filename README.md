@@ -7,15 +7,16 @@ Author: Group 54
 - Rithwik Seth
 - Puneet Singh Bagga
 
-Introduction/Background - Dillon
-Problem Definition
-Methods
-Potential Results 
-Discussion
-References - Wonho
-Contribution
-Timeline
-Checkpoints
+- 
+- Introduction/Background - Dillon
+- Problem Definition
+- Methods
+- Potential Results 
+- Discussion
+- References - Wonho
+- Contribution
+- Timeline
+- Checkpoints
 
 ## Topic
 
