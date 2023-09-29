@@ -1,6 +1,11 @@
 # Project Proposal
 
 Group 54
+- Wonho Lim
+- Dillon Rowe Greer
+- Madeline Hartlage
+- Rithwik Seth
+- Puneet Singh Bagga
 
 ## Topic
 
