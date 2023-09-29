@@ -1,19 +1,21 @@
-# 4641_Project
+# Project Proposal
 
-Topic:
+Group 54
 
-Introduction/Background:
+## Topic
 
-Problem Definition: 
+## Introduction/Background
 
-Methods:
+## Problem Definition
 
-Potential Results and Discussion:
+## Methods
 
-References:
+## Potential Results and Discussion
 
-Contribution:
+## References
 
-Timeline:
+## Contribution
 
-Checkpoints:
+## Timeline
+
+## Checkpoints
