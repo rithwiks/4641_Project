@@ -9,7 +9,7 @@ Author: Group 54
 
 ### distribution (temporary)
 - Introduction/Background - Dillon
-- Problem Definition
+- Problem Definition - Dillon
 - Methods - Rithwik/Puneet
 - Potential Results - Rithwik/Puneet
 - Discussion - Rithwik/Puneet
