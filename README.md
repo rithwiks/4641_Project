@@ -29,6 +29,10 @@ Author: Group 54
 ## Potential Results and Discussion
 
 ## References
+1. Kalaivani, P., & Shunmuganathan, K. L. (2013). Sentiment classification of movie reviews by supervised machine learning approaches. Indian Journal of Computer Science and Engineering, 4(4), 285-292.
+http://www.ijcse.com/docs/INDJCSE13-04-04-034.pdf
+2. 
+3. 
 
 ## Contribution
 
