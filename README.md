@@ -25,6 +25,7 @@ Author: Group 54
 ## Problem Definition
 
 ## Methods
+We have two main parts of the model: preprocessing and the actual regression. For preprocessing, we will need to clean up the data and transform some of the word-based features into some form of vectors. We could do this by encoding actors as a vector of the number of movies they have been in, the amount of money they have made, and the number of awards they have earned, for example. We also need to encode information like the plot of the movie, which we can do with a model like gensim's word2vec. Finally for the actual model, we can play around with multiple options, but in general we would need to use a regression model. We can test multiple, from linear to polynomial to ridge to see what will get us the best performance.
 
 ## Potential Results and Discussion
 We have two potential metrics we could predict given a movie's information: ratings or box office performance. These would both be quantitative measurements that could help producers determine if a movie would be successful or help movie-goers determine if a movie is worth watching. Since both of these values are numeric, we could utilize a loss metric like MSE to validate our results and help train our model. Our goal would be to be able to predict these values accurately given the title, genre, runtime, actors, directors, etc. 
