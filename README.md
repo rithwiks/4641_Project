@@ -47,10 +47,10 @@ Contribution Table
 
 | Madeline Hartlage  | Rithwik Seth                   | Puneet Bagga                   | Dillon Greer       | Wonho Lim   |
 | ------------------ | ------------------------------ | ------------------------------ | ------------------ | ----------- |
-| Contribution Table | Methods                        | Methods                        | Intro & Background | References  |
-| Timeline           | Potential Results & Discussion | Potential Results & Discussion | Problem Definition | GitHub Page |
-| Checkpoint         | Presentation                   | Presentation                   | GitHub Page        |             |
-| GitHub Page        | GitHub Page                    | Recording                      |                    |             |
+| Contribution Table | Methods                        | Presentation                   | Intro & Background | References  |
+| Timeline           | Potential Results & Discussion | Recording                      | Problem Definition | GitHub Page |
+| Checkpoint         | Presentation                   |                                | GitHub Page        |             |
+| GitHub Page        | GitHub Page                    |                                |                    |             |
 
 ## Timeline
 Gantt Chart <br />
