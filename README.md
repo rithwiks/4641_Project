@@ -43,6 +43,14 @@ https://ieeexplore.ieee.org/abstract/document/9633422
 - This paper focuses on a multilevel genre-based textual classification of automated sentiment analysis using machine learning algorithms. Their main goal was to analyze the sentiment of the scripts, counting their respective genres. The authors tested training and test accuracy on a dataset consisting of 15,187 scripts in total. The authors chekced the outcomes of different machine learning algorithms for the mentioned genres, and compared each algorithm to its best output. They also used a classification report with the accuracy percentages for both testing and training data sets. In conclusion, the Multinomial Naive Bayes Algorithm has shown to be the most accurate model among all textual genre classification models.
 
 ## Contribution
+Contribution Table
+
+| Madeline Hartlage  | Rithwik Seth                   | Puneet Bagga                   | Dillon Greer       | Wonho Lim   |
+| ------------------ | ------------------------------ | ------------------------------ | ------------------ | ----------- |
+| Contribution Table | Methods                        | Methods                        | Intro & Background | References  |
+| Timeline           | Potential Results & Discussion | Potential Results & Discussion | Problem Definition | GitHub Page |
+| Checkpoint         | Presentation                   | Presentation                   | GitHub Page        |             |
+| GitHub Page        | GitHub Page                    | Recording                      |                    |             |
 
 ## Timeline
 https://1drv.ms/x/s!ArIjml_oEP6hiXQ_k4jeQjR8svcR?e=d1LcwV&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMTAwLTAwMDAwMDAwMDAwMH0
