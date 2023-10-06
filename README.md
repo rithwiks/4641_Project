@@ -57,15 +57,15 @@ Gantt Chart <br />
 https://1drv.ms/x/s!ArIjml_oEP6hiXQ_k4jeQjR8svcR?e=d1LcwV&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMTAwLTAwMDAwMDAwMDAwMH0
 
 ## Checkpoint
-# Proposal (October 6th)
+### Proposal (October 6th)
 - Report and presentation finished by October 6th
-# Midterm Report (November 10th)
+### Midterm Report (November 10th)
 - Model 1 design and selection by October 12th
 - Data cleaned and pre-processed by October 18th
 - Model 1 coded by November 2nd
 - Data visualization complete by November 7th
 - Results and report completed by deadline November 10th
-# Final Report (December 5th)
+### Final Report (December 5th)
 - Model 2 design and selection by November 12th
 - Data cleaned and pre-processed by November 15th
 - Model 2 coded by November 29th
