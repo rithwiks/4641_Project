@@ -7,27 +7,16 @@ Author: Group 54
 - Rithwik Seth
 - Puneet Singh Bagga
 
-### distribution (temporary)
-- Introduction/Background - Dillon
-- Problem Definition - Dillon
-- Methods - Rithwik/Puneet
-- Potential Results - Rithwik/Puneet
-- Discussion - Rithwik/Puneet
-- References - Wonho
-- Contribution - Madeline
-- Timeline - Madeline
-- Checkpoints - Madeline
-
 ## Topic
-
+Predicting Movie Gross
 ## Introduction/Background
-Predicting how well a movie will do in the box office is a complex task which can depend on many variables such as the movie's genre, actors, director, budget, and even the release date. There has been some research done in this topic as movies are high budget projects which have a lot riding on their success. However, many of them contain incomplete datasets as well as only look to determine the ratings but not the revenue a movie can produce. We will strive to look at both of these quantiative results in our model and better some of the previous models made which are listed in our references below. Our data set contains lists of the actors, cast, director, and genre of each movie with its rating and revenue. It also includes other movies in which these people where in so we will be able to create a more well-rounded model.
+Predicting how well a movie will do in the box office is a complex task that can depend on many variables such as the movie's genre, actors, director, budget, and even the release date. There has been some research done on this topic as movies are high-budget projects which have a lot riding on their success. However, many of them contain incomplete datasets as well as only look to determine the ratings but not the revenue a movie can produce. We will strive to look at both of these quantitative results in our model and better some of the previous models made which are listed in our references below. Our data set contains lists of the actors, cast, director, and genre of each movie with its rating and revenue. It also includes other movies in which these people were in so we will be able to create a more well-rounded model.
 
 ## Problem Definition
-The problem here lies both in the inconsitency of results from previous models as well as the lack at looking at revenue. Since all of the crew and actors must be paid, having a movie which will have a higher revenue will benifit those who are helping create these movies. This has come to the forefront in today's time as there has been a recent strike between writers and movie studios over many issues involving financial conerns with movies and other forms of media. We are hoping that putting writers towards projects which will be profitable in the long-run will allow them to have a more stable income and job security.
+The problem here lies both in the inconsistency of results from previous models as well as the lack at looking at revenue. Since all of the crew and actors must be paid, having a movie that will have a higher revenue will benefit those who are helping create these movies. This has come to the forefront in today's time as there has been a recent strike between writers and movie studios over many issues involving financial concerns with movies and other forms of media. We are hoping that putting writers towards projects that will be profitable in the long run will allow them to have a more stable income and job security.
 
 ## Methods
-We have two main parts of the model: preprocessing and the actual regression. For preprocessing, we will need to clean up the data and transform some of the word-based features into some form of vectors. We could do this by encoding actors as a vector of the number of movies they have been in, the amount of money they have made, and the number of awards they have earned, for example. We also need to encode information like the plot of the movie, which we can do with a model like gensim's word2vec. Finally for the actual model, we can play around with multiple options, but in general we would need to use a regression model. We can test multiple, from linear to polynomial to ridge to see what will get us the best performance.
+We have two main parts of the model: preprocessing and the actual regression. For preprocessing, we will need to clean up the data and transform some of the word-based features into some form of vectors. We could do this by encoding actors as a vector of the number of movies they have been in, the amount of money they have made, and the number of awards they have earned, for example. We also need to encode information like the plot of the movie, which we can do with a model like Gensim's word2vec. Finally, for the actual model, we can play around with multiple options, but in general, we would need to use a regression model. We can test multiple, from linear to polynomial to ridge to see what will get us the best performance.
 
 ## Potential Results and Discussion
 We have two potential metrics we could predict given a movie's information: ratings or box office performance. These would both be quantitative measurements that could help producers determine if a movie would be successful or help movie-goers determine if a movie is worth watching. Since both of these values are numeric, we could utilize a loss metric like MSE to validate our results and help train our model. Our goal would be to be able to predict these values accurately given the title, genre, runtime, actors, directors, etc. 
