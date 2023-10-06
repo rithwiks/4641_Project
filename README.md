@@ -53,7 +53,7 @@ Contribution Table
 | GitHub Page        | GitHub Page                    | Recording                      |                    |             |
 
 ## Timeline
-Gantt Chart
+Gantt Chart <br />
 https://1drv.ms/x/s!ArIjml_oEP6hiXQ_k4jeQjR8svcR?e=d1LcwV&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMTAwLTAwMDAwMDAwMDAwMH0
 
 ## Checkpoints
