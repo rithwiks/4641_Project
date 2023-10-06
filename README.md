@@ -57,6 +57,8 @@ Gantt Chart <br />
 https://1drv.ms/x/s!ArIjml_oEP6hiXQ_k4jeQjR8svcR?e=d1LcwV&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMTAwLTAwMDAwMDAwMDAwMH0
 
 ## Checkpoint
+### Dataset 
+https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 ### Proposal (October 6th)
 - Report and presentation finished by October 6th
 ### Midterm Report (November 10th)
