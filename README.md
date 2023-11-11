@@ -34,12 +34,14 @@ https://ieeexplore.ieee.org/abstract/document/9633422
 ## Contribution
 Contribution Table
 
-| Madeline Hartlage  | Rithwik Seth                   | Puneet Bagga                   | Dillon Greer       | Wonho Lim   |
-| ------------------ | ------------------------------ | ------------------------------ | ------------------ | ----------- |
-| Contribution Table | Methods                        | Presentation                   | Intro & Background | References  |
-| Timeline           | Potential Results & Discussion | Recording                      | Problem Definition | GitHub Page |
-| Checkpoint         | Presentation                   |                                | GitHub Page        |             |
-| GitHub Page        | GitHub Page                    |                                |                    |             |
+| Madeline Hartlage          | Rithwik Seth                   | Puneet Bagga                   | Dillon Greer         | Wonho Lim      |
+| -------------------------- | ------------------------------ | ------------------------------ | -------------------- | -------------- |
+| Contribution Table         | Methods                        | Presentation                   | Intro & Background   | References     |
+| Timeline                   | Potential Results & Discussion | Recording                      | Problem Definition   | GitHub Page    |
+| Checkpoint                 | Presentation                   | Results & Discussion           | GitHub Page          | Visualizations |
+| GitHub Page                | GitHub Page                    | GitHub Page                    | Results & Discussion |                |
+| Backward Feature Selection | Model Implementation           |                                |                      |                |
+| Methods                    |                                |                                |                      |                | 
 
 ## Timeline
 Gantt Chart <br />
