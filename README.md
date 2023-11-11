@@ -41,7 +41,7 @@ Contribution Table
 | Checkpoint                 | Presentation                   | Results & Discussion           | GitHub Page          | Visualizations |
 | GitHub Page                | GitHub Page                    | GitHub Page                    | Results & Discussion |                |
 | Backward Feature Selection | Model Implementation           |                                |                      |                |
-| Methods                    |                                |                                |                      |                | 
+| Methods                    | Data Preprocessing             |                                |                      |                | 
 
 ## Timeline
 Gantt Chart <br />
