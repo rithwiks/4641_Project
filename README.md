@@ -67,3 +67,50 @@ https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 - Conclusions and contributions complete by December 4th
 - Final presentation slides complete by December 5th
 - Final report and recording complete by deadline December 5th
+
+# Results
+
+## Dataset Visualization
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/10f6e16e-5289-4194-92c3-159f8e5e2397)
+
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/3f2a7acb-c753-4127-9995-b820d989f562)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/f252f4bf-8fe2-4f87-814e-a0454971eed8)
+
+## Insights
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/804384ee-8fb7-46b0-8d41-c35ab2d3543c)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c8fb64ce-c33a-45c0-a98e-c1cf61fea120)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/16d529cb-051c-4a78-8d3b-d8813e6b2847)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/71d6caf9-99f8-4205-9e73-adecdb2956b3)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/9a1b0847-dfec-4467-a1a5-b480263d925c)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/5146c772-83c2-435d-b615-95e48cd5a273)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c5c5bbe9-25f7-4e38-aa45-7b129937fdd4)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/b1bd7fd8-6d5e-4cb7-b7d5-69c0f5687cd6)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/4107828a-6f09-4e29-8978-a9fd6bd42446)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7faefb24-f609-451b-8579-048c64951dae)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/297917f4-c21c-45e8-9821-6cfd857d7732)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/8ce03bbd-ed2b-46bf-b8f5-38b3e6debead)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/d180cf65-0f46-40ee-a8be-a3b21ba0610a)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/3b86a109-510b-4aea-9554-68820cc0d67d)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/8ebdf2e9-d090-4220-823f-74930c31e788)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4c32bc2-18ad-43f2-88b5-969f2e2bf277)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4d2d666-9188-4b47-977d-aa7aea4680b3)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c73631bd-1edd-4ac8-b320-39574d0b15fb)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/a37e63b8-1936-49a6-bc86-2352c0bdfeb0)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/e917b7bf-610b-4ee1-97dc-6cfe01f591b9)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b52adb0-9368-4198-87fa-6328c24842ce)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/dbf7cb23-31e4-4221-a2be-c36cc3bdf2b2)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/fc4cd85f-ad44-468c-9bcd-e6d109cff69c)
+
+
+
+## Model Performance Visualization
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/522ea41a-a706-48bb-bd9b-812ddbd5dee2)\
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b679d95-ed5b-459b-b684-514c9ece2ff3)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/56a7117e-bd94-4932-875d-bd7b6170dc6e)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/977314dc-0bed-4355-93b2-fa96f4bd8c2c)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/806ce0b4-a61f-47f8-8b74-b07f1cb36e68)
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7fa868cc-3a23-4aeb-8088-0cc123c96968)
+
+
+
+
