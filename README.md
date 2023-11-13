@@ -19,7 +19,30 @@ The problem here lies both in the inconsistency of results from previous models 
 We have two main parts in our notebook: preprocessing and the actual regression. For preprocessing, we will need to clean up the data and engineer new features that could give the model a better chance at predicting the revenue. One of the first things we did was replace null values in each column with the means for numeric data and modes for non-numeric data. From there we created new features that told the model whether or not key things existed for the movie (tagline, homepage, etc.). From there, we parsed the genres of the movie and turned it into a one-hot encoding. We also parsed the date strings and turned them into separate day, month, and year categories. Finally, we went through the production companies and attached their id to each data point in addition to whether the production company was one of the 20 biggest or not. After data cleaning and feature engineering, we implemented some feature selection using the backward selection techniques. To explain further, we removed features one at a time and determined the significance of the feature in impacting the accuracy of the model. We then selected features that had a significance value above 0.0075 (signifance value being the difference in accuracy between using every feature and using every feature except the selected one). For the actual model, we utilized sklearn and its implementations of numerous regression models. We are currently using sklearn's RandomForestRegressor, as it provides suitable performance. Future steps for our team include testing out different regression models and trying other types of models, like neural networks for example.
 
 ## Potential Results and Discussion
-We have two potential metrics we could predict given a movie's information: ratings or box office performance. These would both be quantitative measurements that could help producers determine if a movie would be successful or help movie-goers determine if a movie is worth watching. Since both values are numeric, we could utilize a loss metric like MSE to validate our results and help train our model. Our goal would be to be able to predict these values accurately given the title, genre, runtime, actors, directors, etc. 
+We have two potential metrics we could predict given a movie's information: ratings or box office performance. These would both be quantitative measurements that could help producers determine if a movie would be successful or help movie-goers determine if a movie is worth watching. Since both values are numeric, we could utilize a loss metric like MSE to validate our results and help train our model. Our goal would be to be able to predict these values accurately given the title, genre, runtime, actors, directors, etc.
+
+## Results
+
+Through our analysis, we found that our model has suprising performnce on predicitng movie revenue. We were able to achieve a mean absolute error of 4.739 × 10^7. This corresspond to a score of 70.90% (we use the R2 score as our score metric). Through diagram below, we can see that our model is able to predict the revenue of a movie with a high degree of accuracy.
+
+![image](https://github.com/rithwiks/4641_Team54/assets/62059099/522ea41a-a706-48bb-bd9b-812ddbd5dee2)
+
+We benchmark this performance against other possible models, and we find that our performance surpasses other models. We use a simple random predcitive model, a linear regression, and a bayesian ridge regression model. Each of these models are highly applicable to our dataset, and we find that our random forest model outperforms each of these models.
+
+We have attached a table showing the performance of each model below.
+
+| Model           | Accuracy        |
+| ------------- | ------------- |
+| Random Forest (Our Model)      | 16078.215007 |
+| Random      | 279683.563966 |
+| Linear Regression      | 72571.414512 |
+| Bayesian Ridge Regression      | 42988.025552 |
+
+Overall, we are satisfied with the performance; we find clear places where the model learns identifiable characteristics and makes accurate predictions, as well as places where the model can be improved. It also points out areas where improvements are possible. This suggests a balanced view, recognizing the model's strengths in learning and prediction accuracy while also identifying potential areas for enhancement to refine its capabilities further.
+
+Too see more visualizations, please refer to the [Model Performance Visualization](#model-performance-visualization) section below.
+
+
 ## References
 1. Kalaivani, P., & Shunmuganathan, K. L. (2013). Sentiment classification of movie reviews by supervised machine learning approaches. Indian Journal of Computer Science and Engineering, 4(4), 285-292.
 http://www.ijcse.com/docs/INDJCSE13-04-04-034.pdf
