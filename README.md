@@ -141,13 +141,15 @@ The box plot above illustrates the spread and outliers of movie revenues within 
 
 This bar chart shows the average popularity of movies across a range of genres, showing a clear trend where certain genres like Family, Science Fiction, and Adventure are more popular among audiences. Genres such as Foreign and Documentary are in the lower bound being consistent with analysis from earlier visualizations. We can also figure out that genres that often involve higher budgets and are more effects-driven tend to garner more popularity.
 
-### Revenue Correlation with Varied Movie Features
+### Relationship Between Production Company ID and Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c5c5bbe9-25f7-4e38-aa45-7b129937fdd4)
 
+The scatter plot above visualizes the relationship between production_id and revenue. We cam tell that there is a large concentration of data points with lower production IDs associated with a wide range of revenues. There's no clear trend suggesting a correlation between production ID and revenue, as the production ID is likely an arbitrary or sequential number assigned to companies.
 
-### Temporal and ID-Based Revenue Trends in Film
+### Link Between Movie Popularity and Box Office Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/b1bd7fd8-6d5e-4cb7-b7d5-69c0f5687cd6)
 
+The scatter plot above depicts the relationship between a movie's popularity and its box office revenue. The spread of data points indicates that movies with higher popularity tend to have a wide range of revenue outcomes, including some of the highest revenues observed. However, there are also less popular movies that achieve significant box office success, suggesting that popularity is not the sole determinant of financial performance.
 
 ### Financial Outcomes by Production Company Scale
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/4107828a-6f09-4e29-8978-a9fd6bd42446)
@@ -157,6 +159,7 @@ The box plot titled  compares the revenue distribution between movies produced b
 ### Production Volume Comparison by Company Size
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7faefb24-f609-451b-8579-048c64951dae)
 
+The bar chart above compares the number of movies produced by small/medium companies versus large companies. The chart indicates that both small/medium and big production companies have significant outputs, with big companies producing slightly fewer movies than their smaller counterparts. This could suggest that while large companies may focus on fewer, potentially higher-budget films, small/medium companies contribute a substantial number of films to the market.
 
 ### Linguistic Influence on Movie Revenue Success
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/297917f4-c21c-45e8-9821-6cfd857d7732)
@@ -211,6 +214,7 @@ The scatter plot above illustrates the relationship between the size of a movie'
 ### Budget Allocation vs. Revenue Generation in Movies
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b52adb0-9368-4198-87fa-6328c24842ce)
 
+The scatter above shows the relationship between a movie's budget  and the revenue it generates. The distribution of data points shows a trend where movies with higher budgets tend to have the potential for higher revenues, but there is considerable variance. Not all high-budget movies result in high revenue, indicating that while budget is a factor, it does not guarantee financial success. There are also movies with relatively low budgets achieving significant revenue, highlighting the complexity of the factors that contribute to a movie's financial outcome.
 
 ### Influence of Keyword Count on Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/dbf7cb23-31e4-4221-a2be-c36cc3bdf2b2)
