@@ -227,29 +227,33 @@ The scatter plot above visualizes the relationship between the number of keyword
 The bar chart above illustrates the relationship between the number of genres a movie is categorized under and its total revenue. We can suggests that movies classified under four genres tend to generate the highest revenue. The chart shows a general increase in revenue as the number of genres increases from two to four, after which the revenue appears to decline. 
 
 ## Model Performance Visualization
+
 ### Comparison of Actual and Predicted Movie Revenues
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/522ea41a-a706-48bb-bd9b-812ddbd5dee2)\
 
+This graph presents a comparative analysis of actual versus predicted movie revenues. Each movie is represented by an index on the horizontal axis. The blue line indicates actual revenues, while the orange line shows the predicted revenues for each movie. The red line depicts the absolute difference between the actual and predicted values, serving as an indicator of the prediction accuracy. The spikes in the absolute difference line suggest areas where the prediction model deviated significantly from the actual revenue. Overall, the visualization is useful for assessing the performance of the revenue prediction model across a dataset of movies.
 
 ### Distribution of Predicted vs. Actual Movie Revenues
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b679d95-ed5b-459b-b684-514c9ece2ff3)
 
+This histogram compares the frequency distribution of predicted and actual movie revenues. The horizontal axis represents revenue, while the vertical axis indicates the frequency of movies falling into each revenue bracket. The blue bars represent predicted revenues, and the red bars indicate actual revenues. The overlap of the two distributions suggests areas where our prediction model aligns closely with the actual revenue figures. The differences in height between the corresponding bars of actual and predicted revenues indicate inaccuracy in the model's predictions. This visual helps to identify the accuracy of the revenue prediction model and its distribution pattern relative to the actual revenue data.
 
 ### Scatter Analysis of Predicted Revenue vs. Actual Figures
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/56a7117e-bd94-4932-875d-bd7b6170dc6e)
 
+This scatter plot depicts the relationship between actual and predicted movie revenues, with actual revenue on the x-axis and predicted revenue on the y-axis, both measured up to 1 billion. The dashed diagonal line represents the line of equality, where the predicted revenues match the actual revenues. Data points closely aligned with this line indicate accurate predictions. The plot shows that for lower revenue values, the predictions are closely clustered around the line of equality, suggesting high accuracy in this range. However, for higher revenue movies, the predictions are more scattered, indicating less precision in the model's predictions. This visualization highlights the model's performance and can be used to identify the range of revenue values for which the model's predictions are most and least reliable.
 
 ### Residuals of Revenue Predictions for Movies
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/977314dc-0bed-4355-93b2-fa96f4bd8c2c)
 
+This residual plot assesses the discrepancies between predicted and actual movie revenues. The horizontal axis represents the predicted revenue, while the vertical axis shows the residuals, which are the differences between the actual revenue and the predicted revenue. A residual of zero, marked by the red line, would mean the prediction was exactly correct. Points above the line indicate an underestimation, and points below represent an overestimation by our predictive model. The concentration of data points close to the red line at lower revenue predictions suggests that the model is more accurate in this range. However, the presence of points further away from the line, especially at higher revenue predictions, indicates larger errors, signifying potential overfitting or model limitations in capturing the factors that drive higher revenues.
 
 ### Feature Importance in Predicting Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/806ce0b4-a61f-47f8-8b74-b07f1cb36e68)
 
+This horizontal bar chart ranks the relative importance of different features used in our model to predict movie revenues. The 'budget' and 'popularity' features have the highest importance, indicating a strong influence on revenue prediction. 'Belongs_to_collection' also shows significant importance, suggesting that movies in a series or franchise tend to have predictable revenue streams. Other features like 'num_cast', 'production_id', and 'num_crew' have moderate importance. Features related to the release timing, such as 'release_year' and 'release_month', appear to have less influence compared to financial and popularity metrics. Attributes like 'homepage_exists', 'in_english', 'tagline_exists', and 'poster_exists' have the least importance, indicating they might be less critical in predicting revenue, at least within the context of this model. This chart is crucial for understanding which variables are most predictive of financial success and can guide producers and marketers in their decision-making processes.
 
 ###  Learning Curves of Model Training and Validation Error
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7fa868cc-3a23-4aeb-8088-0cc123c96968)
 
-
-
-
+This learning curve graph depicts the Mean Squared Error (MSE) of our predictive model as a function of the training set size. The blue line represents the training error, which decreases and then levels off as more data is used, suggesting the model is learning effectively from the training data. The orange line represents the validation error, which starts high and decreases as the training set size increases, indicating the model is generalizing better to new data with more training examples. However, the persistence of a gap between the training and validation error lines suggests there is still some overfitting, as the model performs better on the training data than on unseen validation data. Ideally, the two lines would converge, indicating a model that performs consistently well on both training and validation sets. The plateauing of both curves suggests that adding more data may not lead to significant improvements in the model's performance, and attention may need to be turned to model complexity or feature engineering for further enhancements.
