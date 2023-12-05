@@ -150,43 +150,43 @@ This bar chart shows the average popularity of movies across a range of genres, 
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/b1bd7fd8-6d5e-4cb7-b7d5-69c0f5687cd6)
 
 
-
+### Box Plot of Revenue Distribution by Production Company Size
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/4107828a-6f09-4e29-8978-a9fd6bd42446)
 
 
-
+### Bar Chart of Movie Distribution by Production Company Size
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7faefb24-f609-451b-8579-048c64951dae)
 
 
-
+### Bar Chart of Total Revenue by Movie Language
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/297917f4-c21c-45e8-9821-6cfd857d7732)
 
 
-
+### Box Plot of Revenue Distribution by Movie Language
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/8ce03bbd-ed2b-46bf-b8f5-38b3e6debead)
 
 
-
+### Bar Chart of Movie Distribution by Language
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/d180cf65-0f46-40ee-a8be-a3b21ba0610a)
 
 
-
+### Bar Chart of Total Revenue by Release Month
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/3b86a109-510b-4aea-9554-68820cc0d67d)
 
 
-
+### Bar Chart of Total Revenue by Release Day of the Week
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/8ebdf2e9-d090-4220-823f-74930c31e788)
 
 
-
+### Scatter Plot of Revenue Over Time
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4c32bc2-18ad-43f2-88b5-969f2e2bf277)
 
 
-
+### Bar Chart of Total Revenue by Presence of Tagline
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4d2d666-9188-4b47-977d-aa7aea4680b3)
 
 
-
+### Bar Chart of Total Revenue by Presence of Homepage
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c73631bd-1edd-4ac8-b320-39574d0b15fb)
 
 
