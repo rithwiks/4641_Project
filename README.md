@@ -106,11 +106,20 @@ The statistics aboce presents a statistical summary of five key metrics for a mo
 
 ## Overview of Missing Data
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/f252f4bf-8fe2-4f87-814e-a0454971eed8)
+
 The image above shows a count of missing values by each column in a movie dataset. It highlights that 'belongs_to_collection' and 'homepage' have the highest number of missing entries, telling that these are less frequently recorded attributes. Other columns like 'genres', 'overview', and 'tagline' also show missing data, but to a lesser extent. The dataset seems well-maintained for key identifiers like 'id', 'budget', 'imdb_id', and 'revenue', all with zero missing values, which could be crucial for analysis.
 
 ## Insights
+
+### Movie Revenue Classification
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/804384ee-8fb7-46b0-8d41-c35ab2d3543c)
+
+The bar chart above is showing the distribution of movies for revenue classifications. We have evenly distributed of movies across different revenue levels so that we can effectively analyze the proportion of movies that fall into each revenue category.
+
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c8fb64ce-c33a-45c0-a98e-c1cf61fea120)
+
+The box plot above is illustrating the range and distribution of movie budgets across five revenue classes: very low, low, medium, high, and very high. The boxes indicate the interquartile ranges of the budgets within each revenue class, with the lines inside the boxes representing the median budget values. Outliers are represented by circles above the whiskers of the boxes. The trend suggests that higher revenue classes tend to have higher median budgets and a wider range of budget values. Moreover, especially in very high level revenue class, the plot is suggesting that a few movies had significantly larger budgets than the most of their class. 
+
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/16d529cb-051c-4a78-8d3b-d8813e6b2847)
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/71d6caf9-99f8-4205-9e73-adecdb2956b3)
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/9a1b0847-dfec-4467-a1a5-b480263d925c)
