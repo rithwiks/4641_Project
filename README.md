@@ -145,7 +145,6 @@ This bar chart shows the average popularity of movies across a range of genres, 
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c5c5bbe9-25f7-4e38-aa45-7b129937fdd4)
 
 
-
 ### Temporal and ID-Based Revenue Trends in Film
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/b1bd7fd8-6d5e-4cb7-b7d5-69c0f5687cd6)
 
