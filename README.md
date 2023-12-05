@@ -96,6 +96,7 @@ https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 ## Dataset Visualization
 ### Dataset Overview of Movie Attributes
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/10f6e16e-5289-4194-92c3-159f8e5e2397)
+
 The dataset summary above shows 23 attributes for 3000 movies in the dataset that we used for this project. It indicates all non-null counts and data types for each attribute. Attributes having many null entries means that it is optional data. Data types range from integers to objects, and the dataset occupies over 539 KB of memory in total.
 
 ###
