@@ -190,33 +190,49 @@ This bar chart shows the average popularity of movies across a range of genres, 
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c73631bd-1edd-4ac8-b320-39574d0b15fb)
 
 
-
+### Impact of Poster Availability on Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/a37e63b8-1936-49a6-bc86-2352c0bdfeb0)
 
 
-
+### Correlation Between Cast Size and Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/e917b7bf-610b-4ee1-97dc-6cfe01f591b9)
 
 
-
+### Budget Allocation vs. Revenue Generation in Movies
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b52adb0-9368-4198-87fa-6328c24842ce)
 
 
-
+### Influence of Keyword Count on Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/dbf7cb23-31e4-4221-a2be-c36cc3bdf2b2)
 
 
-
+### Revenue Trends Across Movies with Multiple Genres
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/fc4cd85f-ad44-468c-9bcd-e6d109cff69c)
 
 
 
 ## Model Performance Visualization
+### Comparison of Actual and Predicted Movie Revenues
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/522ea41a-a706-48bb-bd9b-812ddbd5dee2)\
+
+
+### Distribution of Predicted vs. Actual Movie Revenues
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b679d95-ed5b-459b-b684-514c9ece2ff3)
+
+
+### Scatter Analysis of Predicted Revenue vs. Actual Figures
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/56a7117e-bd94-4932-875d-bd7b6170dc6e)
+
+
+### Residuals of Revenue Predictions for Movies
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/977314dc-0bed-4355-93b2-fa96f4bd8c2c)
+
+
+### Feature Importance in Predicting Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/806ce0b4-a61f-47f8-8b74-b07f1cb36e68)
+
+
+###  Learning Curves of Model Training and Validation Error
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7fa868cc-3a23-4aeb-8088-0cc123c96968)
 
 
