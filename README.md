@@ -104,7 +104,9 @@ The dataset summary above shows 23 attributes for 3000 movies in the dataset tha
 
 The statistics aboce presents a statistical summary of five key metrics for a movie dataset: 'id', 'budget', 'popularity', 'runtime', and 'revenue', among 3000 records in total. It provides count, mean, standard deviation, minimum, quartiles, and maximum values. 'Budget' and 'revenue' show wide variations as indicated by their large standard deviations and ranges. The 'popularity' metric has a high maximum value, indicating that there is a outlier movies with exceptional popularity.
 
+## Overview of Missing Data
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/f252f4bf-8fe2-4f87-814e-a0454971eed8)
+The image above shows a count of missing values by each column in a movie dataset. It highlights that 'belongs_to_collection' and 'homepage' have the highest number of missing entries, telling that these are less frequently recorded attributes. Other columns like 'genres', 'overview', and 'tagline' also show missing data, but to a lesser extent. The dataset seems well-maintained for key identifiers like 'id', 'budget', 'imdb_id', and 'revenue', all with zero missing values, which could be crucial for analysis.
 
 ## Insights
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/804384ee-8fb7-46b0-8d41-c35ab2d3543c)
