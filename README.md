@@ -94,13 +94,16 @@ https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 # Results
 
 ## Dataset Visualization
-### Dataset Overview of Movie Attributes
+### Dataset Overview
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/10f6e16e-5289-4194-92c3-159f8e5e2397)
 
 The dataset summary above shows 23 attributes for 3000 movies in the dataset that we used for this project. It indicates all non-null counts and data types for each attribute. Attributes having many null entries means that it is optional data. Data types range from integers to objects, and the dataset occupies over 539 KB of memory in total.
 
-###
+### Movie Metrics Statistics
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/3f2a7acb-c753-4127-9995-b820d989f562)
+
+The statistics aboce presents a statistical summary of five key metrics for a movie dataset: 'id', 'budget', 'popularity', 'runtime', and 'revenue', among 3000 records in total. It provides count, mean, standard deviation, minimum, quartiles, and maximum values. 'Budget' and 'revenue' show wide variations as indicated by their large standard deviations and ranges. The 'popularity' metric has a high maximum value, indicating that there is a outlier movies with exceptional popularity.
+
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/f252f4bf-8fe2-4f87-814e-a0454971eed8)
 
 ## Insights
