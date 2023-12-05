@@ -152,6 +152,7 @@ This bar chart shows the average popularity of movies across a range of genres, 
 ### Financial Outcomes by Production Company Scale
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/4107828a-6f09-4e29-8978-a9fd6bd42446)
 
+The box plot titled  compares the revenue distribution between movies produced by small/medium-sized companies and large production companies. The plot for big production companies displays a higher median revenue, greater interquartile range, and more high-revenue outliers, indicating that larger companies often yield more financially successful movies. In contrast, small/medium-sized companies show lower median revenues and fewer outliers, highlighting the financial disparities in the movie industry based on company size.
 
 ### Production Volume Comparison by Company Size
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/7faefb24-f609-451b-8579-048c64951dae)
@@ -190,18 +191,22 @@ The scatter plot above presents the trend of movie revenues over time, from 1920
 ### The Financial Impact of Movie Taglines
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4d2d666-9188-4b47-977d-aa7aea4680b3)
 
+The bar chart above compares total revenues between movies with and without taglines. The '0' category, representing movies without taglines, shows considerably lower revenue compared to the '1' category, representing movies with taglines. This suggests that the presence of a tagline might be correlated with higher movie revenue.
 
 ### Online Presence Correlation with Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c73631bd-1edd-4ac8-b320-39574d0b15fb)
 
+The bar chart above compares total movie revenues based on whether a movie has a homepage(website). The category '0' denotes movies without an online presence, while '1' indicates movies with one. The chart shows that movies with an online presence generate significantly higher revenues than those without. Thus we can suggests that having a digital footprint can be a substantial factor in a movie's financial success.
 
 ### Impact of Poster Availability on Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/a37e63b8-1936-49a6-bc86-2352c0bdfeb0)
 
+The bar chart aboves compares - actually, there is not even enough source to compare - the total movie revenues based on the availability of posters. The '0' category, which represents movies without available posters, shows perfectly lower revenue compared to the '1' category, representing movies with posters. This suggests that having a poster, which is a basic marketing tool, is perfectly associated with higher movie revenue.
 
 ### Correlation Between Cast Size and Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/e917b7bf-610b-4ee1-97dc-6cfe01f591b9)
 
+The scatter plot above illustrates the relationship between the size of a movie's cast and its revenue. The plot shows that there is no clear linear correlation between the number of cast members and the revenue a movie generates. There is a dense cluster of points at lower cast sizes, indicating that movies with smaller casts can achieve a wide range of revenue outcomes. However, the data also shows that having a large cast does not necessarily equate to higher revenue. This suggests that factors other than cast size are more decisive in determining a movie's financial success.
 
 ### Budget Allocation vs. Revenue Generation in Movies
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/1b52adb0-9368-4198-87fa-6328c24842ce)
@@ -215,7 +220,7 @@ The scatter plot above visualizes the relationship between the number of keyword
 ### Revenue Trends Across Movies with Multiple Genres
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/fc4cd85f-ad44-468c-9bcd-e6d109cff69c)
 
-
+The bar chart above illustrates the relationship between the number of genres a movie is categorized under and its total revenue. We can suggests that movies classified under four genres tend to generate the highest revenue. The chart shows a general increase in revenue as the number of genres increases from two to four, after which the revenue appears to decline. 
 
 ## Model Performance Visualization
 ### Comparison of Actual and Predicted Movie Revenues
