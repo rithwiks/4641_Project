@@ -160,26 +160,32 @@ This bar chart shows the average popularity of movies across a range of genres, 
 ### Linguistic Influence on Movie Revenue Success
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/297917f4-c21c-45e8-9821-6cfd857d7732)
 
+The bar chart above compares the total revenues of movies by their language. The category '0' represents non-English movies, and '1' represents English-language movies. Also, it shows that English-language movies have substantially higher total revenues compared to non-English ones.
 
 ### Revenue Variability Across Language Barriers
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/8ce03bbd-ed2b-46bf-b8f5-38b3e6debead)
 
+The box plot above shows the distribution of movie revenues differentiated by language: Non-English versus English. The box plot for English language movies displays a higher median revenue and a greater range of revenue outcomes, with several outliers indicating movies that have achieved exceptional box office success. In contrast, Non-English movies have a lower median revenue and fewer high-revenue outliers. Thus, we can say that English language movies tend to be more financially successful on average.
 
-### Film Industry Output by Language
+### Film Industry Dominance by Language
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/d180cf65-0f46-40ee-a8be-a3b21ba0610a)
 
+The bar chart above compares the number of movies produced in English versus Non-English languages. The chart shows a significantly larger number of Non-English language movies are there compared to English language movies, indicating a greater global film dominance in languages other than English. We can also tell that while the English based movies have higher average revenue, there are still way more non-English based movies in the industry.
 
 ### Monthly Revenue Patterns in the Movie Industry
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/3b86a109-510b-4aea-9554-68820cc0d67d)
 
+The bar chart above illustrates the total movie revenue for each month. It shows that at certain months, particularly on July, movies generate significantly higher revenues. There's a noticeable drop in the eighth and ninth months, with a subsequent rise towards the end of the year. 
 
 ### Weekly Box Office Revenue Fluctuations
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/8ebdf2e9-d090-4220-823f-74930c31e788)
 
+The bar chart above displays the variation in movie revenues across different days of the week. The chart indicates that the second day of the week sees the highest revenue. The revenue appears to decline towards the middle of the week and then slightly increases again.
 
 ### Longitudinal Analysis of Movie Revenue Growth
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4c32bc2-18ad-43f2-88b5-969f2e2bf277)
 
+The scatter plot above presents the trend of movie revenues over time, from 1920 to approximately 2020.  The plot shows a clear upward trend in maximum revenues as time progresses, with a significant increase in higher revenue movies in more recent years.
 
 ### The Financial Impact of Movie Taglines
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/c4d2d666-9188-4b47-977d-aa7aea4680b3)
@@ -204,6 +210,7 @@ This bar chart shows the average popularity of movies across a range of genres, 
 ### Influence of Keyword Count on Movie Revenue
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/dbf7cb23-31e4-4221-a2be-c36cc3bdf2b2)
 
+The scatter plot above visualizes the relationship between the number of keywords associated with a movie and its revenue. The distribution of data points does not indicate a clear linear relationship. However, it still shows a wide variance in revenue across movies with similar keyword counts. Some movies with a low count of keywords have high revenue, and the opposite is also there, suggesting that the number of keywords alone is not that strong predictor of movie revenue.
 
 ### Revenue Trends Across Movies with Multiple Genres
 ![image](https://github.com/rithwiks/4641_Team54/assets/62059099/fc4cd85f-ad44-468c-9bcd-e6d109cff69c)
