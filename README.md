@@ -16,10 +16,24 @@ Predicting how well a movie will do in the box office is a complex task that can
 The problem here lies both in the inconsistency of results from previous models as well as the lack of looking at revenue. Since all of the crew and actors must be paid, having a movie that will have a higher revenue will benefit those who are helping create these movies. This has come to the forefront today as there has been a recent strike between writers and movie studios over many issues involving financial concerns with movies and other forms of media. We are hoping that putting writers on projects that will be profitable in the long run will allow them to have a more stable income and job security.
 
 ## Methods
-We have two main parts in our notebook: preprocessing and the actual regression. For preprocessing, we will need to clean up the data and engineer new features that could give the model a better chance at predicting the revenue. One of the first things we did was replace null values in each column with the means for numeric data and modes for non-numeric data. From there we created new features that told the model whether or not key things existed for the movie (tagline, homepage, etc.). From there, we parsed the genres of the movie and turned it into a one-hot encoding. We also parsed the date strings and turned them into separate day, month, and year categories. Finally, we went through the production companies and attached their id to each data point in addition to whether the production company was one of the 20 biggest or not. After data cleaning and feature engineering, we implemented some feature selection using the backward selection techniques. To explain further, we removed features one at a time and determined the significance of the feature in impacting the score of the model. We then selected features that had a significance value above 0.0075 (signifance value being the difference in score between using every feature and using every feature except the selected one). For the actual model, we utilized sklearn and its implementations of numerous regression models. We utilized 3 models: Random Forest Regression, Linear Regression, and Bayesian Ridge Regression. We used the Random Forest regression since, as an ensemble model, it would be more robust when it comes to noise. We used the linear regression model as a good baseline comparison, and to see if revenue was linearly related to our input. We implemented Bayesian Ridge Regression as it provided a way to regularize linear regression, which would lead to better results. Finally, we used a random number generator to evaluate our models against a completely random model.
+We have two main parts in our notebook: preprocessing and the actual regression. For preprocessing, we will need to clean up the data and engineer new features that could give the model a better chance at predicting the revenue. One of the first things we did was replace null values in each column with the means for numeric data and modes for non-numeric data. From there we created new features that told the model whether or not key things existed for the movie (tagline, homepage, etc.). From there, we parsed the genres of the movie and turned it into a one-hot encoding. We also parsed the date strings and turned them into separate day, month, and year categories. Finally, we went through the production companies and attached their id to each data point in addition to whether the production company was one of the 20 biggest or not. After data cleaning and feature engineering, we implemented some feature selection using the backward selection techniques. To explain further, we removed features one at a time and determined the significance of the feature in impacting the score of the model. We then selected features that had a significance value above 0.0075 (signifance value being the difference in score between using every feature and using every feature except the selected one).
+
+For the actual model, we utilized sklearn and its implementations of numerous regression models. We utilized 3 models: Random Forest Regression, Linear Regression, and Bayesian Ridge Regression. We used the Random Forest regression since, as an ensemble model, it would be more robust when it comes to noise. We used the linear regression model as a second good baseline comparison, and to see if revenue was linearly related to our input. We implemented Bayesian Ridge Regression as it provided a way to regularize linear regression, which would lead to better results. Finally, we used a random number generator to evaluate our models against a completely random model.
 
 ## Potential Results and Discussion
 We have two potential metrics we could predict given a movie's information: ratings or box office performance. These would both be quantitative measurements that could help producers determine if a movie would be successful or help movie-goers determine if a movie is worth watching. Since both values are numeric, we could utilize a loss metric like MSE to validate our results and help train our model. Our goal would be to be able to predict these values accurately given the title, genre, runtime, actors, directors, etc.
+
+**update
+
+Upon further evaluation, we decided upon predicting just box office revenuew. We found that tyring to predict ratings is extremely volatile, and is very noisy for our models to identify patterns. Box office reveneue was a more direct relationship to the features we had, and we were able to achieve a higher score with this metric.
+
+We use the following metrics to evaluate our model:
+ - Mean Absolute Error (MAE)
+ - Mean Squared Error (MSE)
+ - R2 Score
+ - Relative MAE
+
+View the [Results](#results) section below for more information.
 
 ## Results
 
@@ -29,16 +43,20 @@ Through our analysis, we found that our model has suprising performnce on predic
 
 We benchmark this performance against other possible models, and we find that our performance surpasses other models. We use a simple random predcitive model, a linear regression, and a bayesian ridge regression model. Each of these models are highly applicable to our dataset, and we find that our random forest model outperforms each of these models.
 
-We have attached a table showing the performance of each model below.
+We have attached a table showing the performance of each model below. We use a scaled mean absolute error as our metric, and we find that our model outperforms each of the other models. This metric is also referred to as relative MAE.
 
 | Model           | MAE (mean absolute error)        |
 | ------------- | ------------- |
-| Random Forest (Our Model)      | 16078.215007 |
-| Random      | 279683.563966 |
-| Linear Regression      | 72571.414512 |
-| Bayesian Ridge Regression      | 42988.025552 |
+| Random Forest (Our Model)      | 1.607822e+04 |
+| Random      | 1.787770e+06 |
+| Linear Regression      | 2.797153e+05 |
+| Bayesian Ridge Regression      | 2.650542e+05 |
 
 Overall, we are satisfied with the performance; we find clear places where the model learns identifiable characteristics and makes accurate predictions, as well as places where the model can be improved. It also points out areas where improvements are possible. This suggests a balanced view, recognizing the model's strengths in learning and prediction score while also identifying potential areas for enhancement to refine its capabilities further.
+
+
+This implies that our model has a higher affinity for predictinng the box office revenue of a movie than other models. Using the movie production information such as budget, crew, actors, language, and more, we are able to estimate the box office revenue to within $40 million. This is a significant improvement over other models we test, and we are able to achieve this by using a random forest model. We find that our model is able to predict the revenue of a movie with a high score, performs better than the other models, and beats the baseline model (random precitions) by a large margin.
+
 
 Too see more visualizations, please refer to the [Model Performance Visualization](#model-performance-visualization) section below.
 
@@ -93,7 +111,7 @@ https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
 - Final presentation slides complete by December 5th
 - Final report and recording complete by deadline December 5th
 
-# Results
+# Additional Information
 
 ## Dataset Visualization
 ### Dataset Overview
