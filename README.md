@@ -91,9 +91,9 @@ Contribution Table
 | Timeline                   | Potential Results & Discussion | Recording                      | Problem Definition   | GitHub Page          |
 | Checkpoint                 | Presentation                   | Results & Discussion           | GitHub Page          | Results & Discussion |
 | GitHub Page                | GitHub Page                    | GitHub Page                    | Results & Discussion | Visualizations       |
-| Backward Feature Selection | Model Implementation           | Model Implementation           |                      | Presentation         |
-| Methods                    | Data Preprocessing & Cleaning  | Presentation                   |                      | Final Recording      | 
-| Presentation               | Presentation                   | Final Recording                |                      |                      | 
+| Backward Feature Selection | Model Implementation           | Model Implementation           |                      | Visual Analysis      |
+| Methods                    | Data Preprocessing & Cleaning  | Presentation                   |                      | Presentation         | 
+| Presentation               | Presentation                   | Final Recording                |                      | Final Recording      | 
 | Final Recording            | Final Recording                |                                |                      |                      | 
 
 ## Timeline
