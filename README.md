@@ -12,7 +12,10 @@ Predicting Movie Gross
 ## Introduction/Background
 Predicting how well a movie will do in the box office is a complex task that can depend on many variables such as the movie's genre, actors, director, budget, and even the release date. Some research has been done on this topic as movies are high-budget projects with a lot riding on their success. However, many of them contain incomplete datasets as well as only look to determine the ratings but not the revenue a movie can produce. We will strive to look at both of these quantitative results in our model and better some of the previous models made which are listed in our references below. 
 
+#### Dataset Description & Link
 Our data set contains lists of the actors, cast, director, and genre of each movie with its rating and revenue. In addition to this, the dataset has information provided from imdb, such as popularity, production company, tagline, homepage, and release date. All of this information is generally known well ahead of time when creating a movie, so taking it into account for our model should still be applicable for production companies looking to predict how well their movie does.
+
+[link](https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset)
 
 ## Problem Definition
 The problem here lies both in the inconsistency of results from previous models as well as the lack of looking at revenue. Since all of the crew and actors must be paid, having a movie that will have a higher revenue will benefit those who are helping create these movies. This has come to the forefront today as there has been a recent strike between writers and movie studios over many issues involving financial concerns with movies and other forms of media. We are hoping that putting writers on projects that will be profitable in the long run will allow them to have a more stable income and job security.
