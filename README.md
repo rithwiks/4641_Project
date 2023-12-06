@@ -68,9 +68,7 @@ We compare our model against other models, and we find that our model outperform
 
 #### Next Steps
 
-We have identified several areas where our model can be improved. Firstly, we can improve our model by adding more features, feature enginering, and by processing more data. We find that data is likely to be the biggest bottleneck towards model performance, specifically because we only had 3,000 to the points to train the entire model. Secondly, we identify that the performance of model(s) might improved by using deep learning techniques, such as neural networks.
-
-Finally, we could utilize better feature selection and feature engineering such as by taking into account specific cast names or crew names. For example, an encoding of directors and identifying a top 20 directory could signal higher reveneu. We do work similar to this in our methodology, but by expanding it into more salent features, we could potentially improve the performance of the model. 
+We have identified several areas where our model can be improved. We find that data is likely to be the biggest bottleneck towards model performance, specifically because we only had 3,000 to the points to train the entire model. Secondly, we identify that the performance of model(s) might improved by using deep learning techniques, such as neural networks. Finally, we could utilize better feature selection and feature engineering such as by taking into account specific cast names or crew names. For example, an encoding of directors and identifying a top 20 directory could signal higher revenue. We do work similar to this in our methodology, but by expanding it into more salent features, we could potentially improve the performance of the model. 
 
 
 ## References
