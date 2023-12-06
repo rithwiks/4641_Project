@@ -45,7 +45,7 @@ We benchmark this performance against other possible models, and we find that ou
 
 We have attached a table showing the performance of each model below. We use a scaled mean absolute error as our metric, and we find that our model outperforms each of the other models. This metric is also referred to as relative MAE.
 
-| Model           | MAE (mean absolute error)        |
+| Model           | Scaled MAE (mean absolute error)        |
 | ------------- | ------------- |
 | Random Forest (Our Model)      | 1.607822e+04 |
 | Random      | 1.787770e+06 |
