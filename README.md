@@ -48,9 +48,11 @@ Through our analysis, we found that our model has suprising performnce on predic
 
 We benchmark this performance against other possible models, and we find that our performance surpasses other models. We use a simple random predcitive model, a linear regression, and a bayesian ridge regression model. Each of these models are highly applicable to our dataset, and we find that our random forest model outperforms each of these models.
 
-We have attached a table showing the performance of each model below. We use a scaled mean absolute error as our metric, and we find that our model outperforms each of the other models. This metric is also referred to as relative MAE.
+We have attached a table showing the performance of each model below. We use a scaled absolute error as our metric, and we find that our model outperforms each of the other models. This metric is also referred to as relative error.
 
-| Model           | Scaled MAE (mean absolute error)        |
+scaled absolute error = ABS(actual - predicted) / actual
+
+| Model           | Scaled Absolute Error (Relative error)        |
 | ------------- | ------------- |
 | Random Forest (Our Model)      | 1.607822e+04 |
 | Random      | 1.787770e+06 |
