@@ -36,7 +36,7 @@ We use the following metrics to evaluate our model:
  - Mean Absolute Error (MAE)
  - Mean Squared Error (MSE)
  - R2 Score
- - Relative MAE
+ - Scaled Absolute Error (Relative error)
 
 View the [Results](#results) section below for more information.
 
