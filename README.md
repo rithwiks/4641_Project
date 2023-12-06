@@ -55,10 +55,20 @@ We have attached a table showing the performance of each model below. We use a s
 Overall, we are satisfied with the performance; we find clear places where the model learns identifiable characteristics and makes accurate predictions, as well as places where the model can be improved. It also points out areas where improvements are possible. This suggests a balanced view, recognizing the model's strengths in learning and prediction score while also identifying potential areas for enhancement to refine its capabilities further.
 
 
-This implies that our model has a higher affinity for predictinng the box office revenue of a movie than other models. Using the movie production information such as budget, crew, actors, language, and more, we are able to estimate the box office revenue to within $40 million. This is a significant improvement over other models we test, and we are able to achieve this by using a random forest model. We find that our model is able to predict the revenue of a movie with a high score, performs better than the other models, and beats the baseline model (random precitions) by a large margin.
+This implies that our model has a higher affinity for predicting the box office revenue of a movie than other models. Using the movie production information such as budget, crew, actors, language, and more, we are able to estimate the box office revenue to within $40 million. This is a significant improvement over other models we test, and we are able to achieve this by using a random forest model. We find that our model is able to predict the revenue of a movie with a high score, performs better than the other models, and beats the baseline model (random precitions) by a large margin.
 
 
 Too see more visualizations, please refer to the [Model Performance Visualization](#model-performance-visualization) section below.
+
+#### Model Comparison
+
+We compare our model against other models, and we find that our model outperforms other models. We use a Random Forest, a linear regression, and a bayesian ridge regression model. We find that our random forest model outperforms each of these models. Our models are able to roughly understand and predict the revenue of a movie to some degree, but the random forest model ended up doing the best. This is likely due to the fact that it is an ensemble model, which means that it is more robust and can deal with noise better than other models.
+
+#### Next Steps
+
+We have identified several areas where our model can be improved. Firstly, we can improve our model by adding more features, feature enginering, and by processing more data. We find that data is likely to be the biggest bottleneck towards model performance, specifically because we only had 3,000 to the points to train the entire model. Secondly, we identify that the performance of model(s) might improved by using deep learning techniques, such as neural networks.
+
+Finally, we could utilize better feature selection and feature engineering such as by taking into account specific cast names or crew names. For example, an encoding of directors and identifying a top 20 directory could signal higher reveneu. We do work similar to this in our methodology, but by expanding it into more salent features, we could potentially improve the performance of the model. 
 
 
 ## References
@@ -81,9 +91,9 @@ Contribution Table
 | Timeline                   | Potential Results & Discussion | Recording                      | Problem Definition   | GitHub Page          |
 | Checkpoint                 | Presentation                   | Results & Discussion           | GitHub Page          | Results & Discussion |
 | GitHub Page                | GitHub Page                    | GitHub Page                    | Results & Discussion | Visualizations       |
-| Backward Feature Selection | Model Implementation           | Model Implementation           |                      | Visual Analysis      |
-| Methods                    | Data Preprocessing & Cleaning  | Presentation                   |                      | Presnetation         | 
-| Presentation               | Presentation                   | Final Recording                |                      | Final Recording      | 
+| Backward Feature Selection | Model Implementation           | Model Implementation           |                      | Presentation         |
+| Methods                    | Data Preprocessing & Cleaning  | Presentation                   |                      | Final Recording      | 
+| Presentation               | Presentation                   | Final Recording                |                      |                      | 
 | Final Recording            | Final Recording                |                                |                      |                      | 
 
 ## Timeline
