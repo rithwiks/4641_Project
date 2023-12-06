@@ -63,8 +63,10 @@ Contribution Table
 | Timeline                   | Potential Results & Discussion | Recording                      | Problem Definition   | GitHub Page          |
 | Checkpoint                 | Presentation                   | Results & Discussion           | GitHub Page          | Results & Discussion |
 | GitHub Page                | GitHub Page                    | GitHub Page                    | Results & Discussion | Visualizations       |
-| Backward Feature Selection | Model Implementation           |                                |                      |                      |
-| Methods                    | Data Preprocessing & Cleaning  |                                |                      |                      | 
+| Backward Feature Selection | Model Implementation           | Presentation                   |                      | Presentation         |
+| Methods                    | Data Preprocessing & Cleaning  | Final Recording                |                      | Final Recording      | 
+| Presentation               | Presentation                   |                                |                      |                      | 
+| Final Recording            | Final Recording                |                                |                      |                      | 
 
 ## Timeline
 Gantt Chart <br />
